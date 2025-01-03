@@ -274,7 +274,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "WebSockets",
+        name: "Web Sockets",
         color: "pink-text-gradient",
       },
     ],
