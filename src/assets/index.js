@@ -31,6 +31,13 @@ import jobit from "./ecom.png";
 import tripguide from "./blog.png";
 import carapp from "./carapp.png";
 import linuxpic from "./linux-pic.jpeg";
+import emo from "./emo.png";
+import news from "./news.png";
+import game from "./game.png";
+import ecom from "./ecom.png";
+import skill from "./skill.png";
+
+
 export {
   logo,
   backend,
@@ -62,4 +69,9 @@ export {
   tripguide,
   carapp,
   linuxpic,
+  emo,
+  news,
+  game,
+  ecom,
+  skill
 };

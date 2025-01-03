@@ -25,6 +25,11 @@ import {
   threejs,
   carapp,
   linuxpic,
+  emo,
+  news,
+  game,
+  ecom,
+  skill,
 } from "../assets";
 
 export const navLinks = [
@@ -172,37 +177,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Flight Crux",
+    name: "Skill Scout",
     description:
-      "FlightCrux is an interactive GUI based Application that helps users get the upcoming most cheapest flights with a single click of a button. The Project has been entirely made in Python with the help of modules like Tkinter, Customtkinter, Gmaps, SMTP and Selenium for web scraping. The Application fetches flight itinerary of 3-5 Flights from MakeMyTrip.com using the selenium module for Web Scraping and Send an detailed Email to the user on his registered mail ID which is then saved on a MySQL database which acts as the backend.",
+      "SkillScout is a job portal platform developed as a 5th-semester DBMS project. It uses PostgreSQL for database management and provides a recommendation system for matching candidates to jobs.",
     tags: [
       {
-        name: "Python",
+        name: "Typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "Tkinter",
+        name: "PostgreSQL",
         color: "green-text-gradient",
       },
       {
-        name: "MySQL",
+        name: "Next.js",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/Fxrdeen/Python-College-Project",
+    image: skill,
+    source_code_link: "https://github.com/G-m007/SkillScout.git",
   },
   {
-    name: "E-Commerce Platform",
+    name: "ShoPro- E-Commerce Platform",
     description:
-      "E-Commerce Web Application based on React that make use of MongoDB Atlas and ExpressJS to store the product details and users can register thier product for sale on the website as well.",
+      "This is a 3rd SEM WebTech project made using HTML, CSS and JavaScript along with the MERN stack and web scraping. It allows sellers to register their products on our website and users can buy products on site with affiliate marketing.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Html",
         color: "green-text-gradient",
       },
       {
@@ -210,71 +215,71 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/Fxrdeen/React-Project",
+    image: ecom,
+    source_code_link: "https://github.com/G-m007/shoPro.git",
   },
   {
-    name: "Blog App",
+    name: "EmoStream - Emoji Streaming Platform",
     description:
-      "A Blog App which allows users to register, login and post blogs. Made using the MERN stack with React.js and Express.js and specifically used MongoDB Atlas for the backend",
+      "Emostream: A Big Data project for real-time emoji streaming and sentiment analysis using Apache Spark and Kafka. It processes emoji-based data streams to analyze user sentiments and trends in real-time.",
     tags: [
       {
-        name: "reactjs",
+        name: "Kafka",
         color: "blue-text-gradient",
       },
       {
-        name: "mongoDB Atlas",
+        name: "Spark",
         color: "green-text-gradient",
       },
       {
-        name: "expressjs",
+        name: "Socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/Fxrdeen/Blog-App",
+    image: emo,
+    source_code_link: "https://github.com/G-m007/EmoStream.git",
   },
   {
-    name: "Car App",
+    name: "News App",
     description:
-      "A Car app that uses an API to show the cars selected based on thier model and type. Made using Next.js, Vite, Node.js and Tailwind CSS.",
+      "Advanced News Aggregator is a modern web application that delivers real-time breaking news and trending stories from diverse global sources, powered by NewsAPI and built with Streamlit. The app features multi-language support, advanced search capabilities, and an auto-refreshing interface that keeps users updated with the latest headlines.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "Streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "Vite",
+        name: "NewsAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: carapp,
-    source_code_link: "https://github.com/Fxrdeen/Car-App",
+    image: news,
+    source_code_link: "https://github.com/G-m007/News-Blog.git",
   },
   {
-    name: "Data Structures Project",
+    name: "Liars Bar",
     description:
-      "This project focuses on the use of trees in order to print the file structure of the folder in a tree format in the terminal. It uses multiple linux functions of C to make directories, delete them and modify them by adding files.",
+      "A multiplayer web-based card game where players bluff and challenge each other in a high-stakes game of deception. Built with FastAPI, WebSockets, and vanilla JavaScript.",
     tags: [
       {
-        name: "Trees",
+        name: "FastAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "Linux",
+        name: "Vannila JS",
         color: "green-text-gradient",
       },
       {
-        name: "C Lang",
+        name: "Web Sockets",
         color: "pink-text-gradient",
       },
     ],
-    image: linuxpic,
-    source_code_link: "https://github.com/Fxrdeen/DSA_Project",
+    image: game,
+    source_code_link: "https://github.com/G-m007/Liars-Bar-Game.git",
   },
 ];
 
