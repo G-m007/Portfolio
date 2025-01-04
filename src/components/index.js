@@ -8,7 +8,9 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import emailjs from '@emailjs/browser';
 
+emailjs.init('vSIjNNAP0AVNRzQx3');
 
 export {
   Hero,
