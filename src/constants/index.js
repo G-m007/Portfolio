@@ -121,32 +121,32 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Member of Competitve Programming Team",
-    company_name: "CodeChef PESUECC Chapter",
-    icon: starbucks,
-    iconBg: "#E6DEDD",
-    date: "April 2023 - Present",
-    points: [
-      "Inventing new Competitve Coding Problems",
-      "Writing the solutions in C++ and Python helping in deployment of Questions for college hackathons and competitions",
-      "Mentoring the CP Team",
-      "Conducted a Workshop along with Other members on C++ Standard Template Library and introduction to Competitve Coding using C++.",
-    ],
-  },
-  {
-    title: "Mentor",
-    company_name: "HackerSpace",
-    icon: tesla,
-    iconBg: "#383E56",
-    date: "Oct 2023 - Present",
-    points: [
-      "Mentoring college students.",
-      "Volunteering in conducting Workshops and Hackathons",
-    ],
-  },
-];
+// const experiences = [
+//   {
+//     title: "Member of Competitve Programming Team",
+//     company_name: "CodeChef PESUECC Chapter",
+//     icon: starbucks,
+//     iconBg: "#E6DEDD",
+//     date: "April 2023 - Present",
+//     points: [
+//       "Inventing new Competitve Coding Problems",
+//       "Writing the solutions in C++ and Python helping in deployment of Questions for college hackathons and competitions",
+//       "Mentoring the CP Team",
+//       "Conducted a Workshop along with Other members on C++ Standard Template Library and introduction to Competitve Coding using C++.",
+//     ],
+//   },
+//   {
+//     title: "Mentor",
+//     company_name: "HackerSpace",
+//     icon: tesla,
+//     iconBg: "#383E56",
+//     date: "Oct 2023 - Present",
+//     points: [
+//       "Mentoring college students.",
+//       "Volunteering in conducting Workshops and Hackathons",
+//     ],
+//   },
+// ];
 
 const testimonials = [
   {
