@@ -7,5 +7,11 @@ export default defineConfig({
   base: './',
   build: {
     chunkSizeWarningLimit: 1600,
+    rollupOptions: {
+      external: ['@emailjs/browser'],
+    }
+  },
+  optimizeDeps: {
+    include: ['@emailjs/browser']
   }
 })
