@@ -3,8 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' 
-    ? (process.env.NETLIFY ? '/' : '/Portfolio/') 
-    : '/',
   plugins: [react()],
+  base: './',
+  build: {
+    chunkSizeWarningLimit: 1600,
+  }
 })
