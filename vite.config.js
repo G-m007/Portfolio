@@ -8,10 +8,10 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 1600,
     rollupOptions: {
-      external: ['@emailjs/browser'],
+      external: ['@emailjs/browser', 'react-parallax-tilt'],
     }
   },
   optimizeDeps: {
-    include: ['@emailjs/browser']
+    include: ['@emailjs/browser', 'react-parallax-tilt']
   }
 })
