@@ -286,7 +286,7 @@ const projects = [
   {
     name: "Kubernetes-like Distributed Systems Cluster Simulator",
     description:
-      "A blockchain-based fractional real estate platform that allows users to invest in properties by purchasing ERC-20 tokens, enabling seamless ownership transfer and automated profit distribution.",
+      "This project implements a simplified Kubernetes-like cluster simulator that demonstrates core concepts of distributed systems, including node management, pod scheduling, and health monitoring.",
     tags: [
       {
         name: "Python",
