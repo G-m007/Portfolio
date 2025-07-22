@@ -28,7 +28,9 @@ import {
   emo,
   news,
   game,
+  kube,
   ecom,
+  bloc,
   skill,
 } from "../assets";
 
@@ -261,25 +263,46 @@ const projects = [
     source_code_link: "https://github.com/G-m007/News-Blog.git",
   },
   {
-    name: "Liars Bar",
+    name: "Real-Estate-Dapp",
     description:
-      "A multiplayer web-based card game where players bluff and challenge each other in a high-stakes game of deception. Built with FastAPI, WebSockets, and vanilla JavaScript.",
+      "A blockchain-based fractional real estate platform that allows users to invest in properties by purchasing ERC-20 tokens, enabling seamless ownership transfer and automated profit distribution.",
     tags: [
       {
-        name: "FastAPI",
+        name: "Solidity",
         color: "blue-text-gradient",
       },
       {
-        name: "Vannila JS",
+        name: "Metamask",
         color: "green-text-gradient",
       },
       {
-        name: "Web Sockets",
+        name: "Next.js",
         color: "pink-text-gradient",
       },
     ],
-    image: game,
-    source_code_link: "https://github.com/G-m007/Liars-Bar-Game.git",
+    image: bloc,
+    source_code_link: "https://github.com/G-m007/Real-Estate-DApp.git",
+  },
+  {
+    name: "Kubernetes-like Distributed Systems Cluster Simulator",
+    description:
+      "A blockchain-based fractional real estate platform that allows users to invest in properties by purchasing ERC-20 tokens, enabling seamless ownership transfer and automated profit distribution.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Kubernetes",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kube,
+    source_code_link: "https://github.com/G-m007/191_192_210_A-Distributed-Systems-Cluster-Simulation-Framework.git",
   },
 ];
 

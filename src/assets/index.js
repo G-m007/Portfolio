@@ -36,6 +36,8 @@ import news from "./news.png";
 import game from "./game.png";
 import ecom from "./ecom.png";
 import skill from "./skill.png";
+import kube from "./kube.png";
+import bloc from "./bloc.webp";
 
 
 export {
@@ -73,5 +75,7 @@ export {
   news,
   game,
   ecom,
-  skill
+  skill,
+  kube,
+  bloc,
 };
