@@ -200,27 +200,6 @@ const projects = [
     source_code_link: "https://github.com/G-m007/SkillScout.git",
   },
   {
-    name: "ShoPro- E-Commerce Platform",
-    description:
-      "This is a 3rd SEM WebTech project made using HTML, CSS and JavaScript along with the MERN stack and web scraping. It allows sellers to register their products on our website and users can buy products on site with affiliate marketing.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Html",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecom,
-    source_code_link: "https://github.com/G-m007/shoPro.git",
-  },
-  {
     name: "EmoStream - Emoji Streaming Platform",
     description:
       "Emostream: A Big Data project for real-time emoji streaming and sentiment analysis using Apache Spark and Kafka. It processes emoji-based data streams to analyze user sentiments and trends in real-time.",
@@ -240,27 +219,6 @@ const projects = [
     ],
     image: emo,
     source_code_link: "https://github.com/G-m007/EmoStream.git",
-  },
-  {
-    name: "News App",
-    description:
-      "Advanced News Aggregator is a modern web application that delivers real-time breaking news and trending stories from diverse global sources, powered by NewsAPI and built with Streamlit. The app features multi-language support, advanced search capabilities, and an auto-refreshing interface that keeps users updated with the latest headlines.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Streamlit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "NewsAPI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: news,
-    source_code_link: "https://github.com/G-m007/News-Blog.git",
   },
   {
     name: "Real-Estate-Dapp",
@@ -303,6 +261,27 @@ const projects = [
     ],
     image: kube,
     source_code_link: "https://github.com/G-m007/191_192_210_A-Distributed-Systems-Cluster-Simulation-Framework.git",
+  },
+  {
+    name: "News App",
+    description:
+      "Advanced News Aggregator is a modern web application that delivers real-time breaking news and trending stories from diverse global sources, powered by NewsAPI and built with Streamlit. The app features multi-language support, advanced search capabilities, and an auto-refreshing interface that keeps users updated with the latest headlines.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NewsAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: news,
+    source_code_link: "https://github.com/G-m007/News-Blog.git",
   },
 ];
 
